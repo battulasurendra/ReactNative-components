@@ -1,4 +1,4 @@
-package com.rncomponents;
+package com.battula.rncomponents;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

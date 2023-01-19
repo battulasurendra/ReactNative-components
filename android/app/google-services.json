@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "168742888202",
+    "project_id": "rncomponents-27324",
+    "storage_bucket": "rncomponents-27324.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168742888202:android:439c54e185a243f4ce90f3",
+        "android_client_info": {
+          "package_name": "com.battula.rncomponents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168742888202-5vodocjau6j26nqkumvt7bfpn6dmdsn8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.battula.rncomponents",
+            "certificate_hash": "145fdabaa7e626a6a00e3d2d62f8bc058bb75f85"
+          }
+        },
+        {
+          "client_id": "168742888202-d96cldql3v1icno3c07sqvs8e8u5stli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaUbymTwfAIN1B9eA63Gw6O4kf89xje9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168742888202-d96cldql3v1icno3c07sqvs8e8u5stli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

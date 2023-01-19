@@ -1,4 +1,4 @@
-package com.rncomponents;
+package com.battula.rncomponents;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

@@ -2278,6 +2278,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-native-firebase/messaging@npm:^16.5.0":
+  version: 16.5.0
+  resolution: "@react-native-firebase/messaging@npm:16.5.0"
+  peerDependencies:
+    "@react-native-firebase/app": 16.5.0
+  checksum: 1f2f9cc9e3aa3a4b88e542810b56ccf74e426e0ebcb1e39a5300e7e411f4b317427b14ee7012cd8a9a288a6292c80ca1d8f35f428bb9ee9a963767a5cfe5afc2
+  languageName: node
+  linkType: hard
+
 "@react-native/assets@npm:1.0.0":
   version: 1.0.0
   resolution: "@react-native/assets@npm:1.0.0"
@@ -2685,6 +2694,7 @@ __metadata:
     "@babel/runtime": ^7.12.5
     "@react-native-community/eslint-config": ^3.0.0
     "@react-native-firebase/app": ^16.5.0
+    "@react-native-firebase/messaging": ^16.5.0
     "@tsconfig/react-native": ^2.0.2
     "@types/jest": ^29.2.1
     "@types/react": ^18.0.24

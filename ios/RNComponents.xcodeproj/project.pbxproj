@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -39,6 +39,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNComponents/main.m; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-RNComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNComponents.debug.xcconfig"; path = "Target Support Files/Pods-RNComponents/Pods-RNComponents.debug.xcconfig"; sourceTree = "<group>"; };
 		4457263929794B6B005BC51C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4457263B297955C2005BC51C /* RNComponents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = RNComponents.entitlements; path = RNComponents/RNComponents.entitlements; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RNComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNComponents.release.xcconfig"; path = "Target Support Files/Pods-RNComponents/Pods-RNComponents.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RNComponents-RNComponentsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNComponents-RNComponentsTests.debug.xcconfig"; path = "Target Support Files/Pods-RNComponents-RNComponentsTests/Pods-RNComponents-RNComponentsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E46D3BE504C149E2C8A5876 /* Pods_RNComponents_RNComponentsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNComponents_RNComponentsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +89,7 @@
 		13B07FAE1A68108700A75B9A /* RNComponents */ = {
 			isa = PBXGroup;
 			children = (
+				4457263B297955C2005BC51C /* RNComponents.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -126,10 +128,10 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
 			);
-			indentWidth = 2;
+			indentWidth = 4;
 			sourceTree = "<group>";
-			tabWidth = 2;
-			usesTabs = 0;
+			tabWidth = 4;
+			usesTabs = 1;
 		};
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
@@ -216,7 +218,7 @@
 				};
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNComponents" */;
-			compatibilityVersion = "Xcode 12.0";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -503,6 +505,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RNComponents/RNComponents.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U93FN39YZ4;
 				ENABLE_BITCODE = NO;
@@ -517,8 +520,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.battula.rncomponents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.battula.rncomponents;
 				PRODUCT_NAME = RNComponents;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -532,6 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RNComponents/RNComponents.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U93FN39YZ4;
 				INFOPLIST_FILE = RNComponents/Info.plist;
@@ -545,8 +548,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.battula.rncomponents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.battula.rncomponents;
 				PRODUCT_NAME = RNComponents;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
